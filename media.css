@@ -1,0 +1,168 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media (min-height: 780px) and (max-width : 1400px) {
+
+}
+
+@media only screen and (max-width : 1200px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+	.model {
+		font-size: 35px;
+	}
+
+	.slogan,
+	.slogan2 {
+		font-size: 55px;
+	}
+
+	.price {
+		font-size: 35px;
+	}
+
+	.short-demonstration {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.video-wrapper {
+		width: 100%;
+	}
+
+	.product-foto-wrapper2 img {
+		width: 115%;
+		height: 115%;
+	}	
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+	.model {
+		font-size: 30px;
+	}
+
+	.slogan,
+	.slogan2 {
+		font-size: 50px;
+	}
+
+	.price {
+		font-size: 30px;
+	}
+
+	.short-demonstration {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.video-wrapper {
+		width: 100%;
+	}
+
+	.properties {
+		font-size: 18px;
+	}
+
+	.short-description {
+		font-size: 20px;
+	}
+
+	.about-product,
+	.about-product2 {
+		width: 100%;
+	}
+
+	.more-information a {
+		font-size: 18px;
+	}
+
+	.viev-of-product1 p {
+		font-size: 14px;
+	}
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+	.model {
+		font-size: 20px;
+	}
+
+	.slogan,
+	.slogan2 {
+		font-size: 40px;
+	}
+
+	.price {
+		font-size: 20px;
+	}
+
+	.short-description {
+		font-size: 18px;
+	}
+
+	.more-information a {
+		font-size: 16px;
+	}
+
+	.viev-of-product1 p {
+		font-size: 12px;
+	}
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+	.model {
+		font-size: 10px;
+	}
+
+	.slogan,
+	.slogan2 {
+		font-size: 30px;
+	}
+
+	.price {
+		font-size: 10px;
+	}
+
+	.short-description {
+		font-size: 16px;
+	}
+
+	.viev-of-product1 p {
+		font-size: 10px;
+	}
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+ /* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}
